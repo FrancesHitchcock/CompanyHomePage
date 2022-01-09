@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    background-color: #eaeaea;
+}
+header {
+    background-color:  #ff8080;
+    color: black;
+}
+
+#logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 90px;
+}
+
+h1 {
+    float: right;
+    margin: 20px 40px 20px auto;
+    font-family: "segoe script", cursive;
+    line-height: .75;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.repast, h4 {
+    font-family: "segoe script", cursive;
+}
+
+nav {
+    clear: both;
+    padding: 10px;
+    background-color:  #4d0000;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #eaeaea
+}
+
+a:hover {
+    color: #909090;
+}
+
+a:active {
+    color: #ff8080;
+}
+
+#mission {
+    clear: both;
+    width: 60%;
+    margin: 20px auto 0 auto;
+}
+
+#mission p {
+    margin-bottom: 10px;
+}
+
+#header-para {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#recipes, #team {
+    background-color:  #ccc;
+    margin: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#recipe-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe {
+    display: inline;
+    margin: 10px;
+    background-color: #eaeaea;
+}
+
+
+.image-container {
+    width: 200px;
+}
+
+.recipe-caption {
+    text-align: center;
+    font-weight: bold;
+}
+
+figure {
+    margin: 5px;
+}
+
+#team-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    background-color: #eaeaea;
+}
+
+.team-member-image-wrapper {
+    width: 300px;
+    display: inline;
+}
+
+.team-member-text {
+    width: 300px;
+    display: inline;
+    padding: 10px 20px 10px 20px;
+}
+
+@media only screen and (max-width: 1483px) { 
+    #stephen-wrapper {
+        flex-direction: row-reverse;
+    }
+
+}
+
+.team-member-text p {
+    margin-bottom: 10px;
+}
+
+.team-member-text a:link, .team-member-text a:visited {
+    color: blue;   
+}
+
+.team-member-text a:hover {
+    color:#909090;
+}
+
+.team-member-text a:active {
+    color:#ff8080;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:  #ff8080;
+    color: black;
+    font-weight: bold;
+}
+
+#copyright {
+    text-align: right;
+    margin-right: 20px;
+    font-size: .75rem;
+}
